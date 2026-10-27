@@ -1,0 +1,60 @@
+{
+  "fonts": [
+    {
+      "id": "xb38asc",
+      "name": "xb38asc",
+      "family": "xi38asc-xb38asc"
+    },
+    {
+      "id": "xe38asc",
+      "name": "xe38asc",
+      "family": "xi38asc-xe38asc"
+    },
+    {
+      "id": "xg38asc",
+      "name": "xg38asc",
+      "family": "xi38asc-xg38asc"
+    },
+    {
+      "id": "xh38asc",
+      "name": "xh38asc",
+      "family": "xi38asc-xh38asc"
+    },
+    {
+      "id": "xj38asc",
+      "name": "xj38asc",
+      "family": "xi38asc-xj38asc"
+    },
+    {
+      "id": "xk38asc",
+      "name": "xk38asc",
+      "family": "xi38asc-xk38asc"
+    },
+    {
+      "id": "xm38asc",
+      "name": "xm38asc",
+      "family": "xi38asc-xm38asc"
+    },
+    {
+      "id": "xo38asc",
+      "name": "xo38asc",
+      "family": "xi38asc-xo38asc"
+    },
+    {
+      "id": "xp38asc",
+      "name": "xp38asc",
+      "family": "xi38asc-xp38asc"
+    },
+    {
+      "id": "xs38asc",
+      "name": "xs38asc",
+      "family": "xi38asc-xs38asc"
+    },
+    {
+      "id": "xt38asc",
+      "name": "xt38asc",
+      "family": "xi38asc-xt38asc"
+    }
+  ],
+  "defaultFontId": "xh38asc"
+}

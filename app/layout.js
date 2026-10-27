@@ -1,14 +1,19 @@
-import './globals.css';
+import { ClerkProvider } from "@clerk/nextjs";
+import { localFontVariables } from "@/components/hsciifp/varfonts";
+import "./globals.css";
 
 export const metadata = {
-  title: 'SKP Real Estate | Faridabad',
-  description: 'SKP Real Estate - Properties for sale and rent in Faridabad.',
+  title: "shri krishna properties | flAts for rent xnd sale in fAridabad",
+  description:
+    "shri krishna properties helps with flAts for rent, property buy and sale, interior design, and renowation in fAridabad.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <ClerkProvider signInFallbackRedirectUrl="/admin">
+      <html lang="en" className={localFontVariables.map((font) => font.variable).join(" ")}>
+        <body>{children}</body>
+      </html>
+    </ClerkProvider>
   );
 }

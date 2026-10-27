@@ -1,0 +1,37 @@
+{
+  "name": "libhsciifp",
+  "version": "1.0.0",
+  "description": "React font picker and xi38asc web fonts",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "font-catalog.json",
+    "fonts.css",
+    "fonts/",
+    "README.md",
+    "LICENSE",
+    "LICENSE.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./fonts.css": "./fonts.css",
+    "./fonts/*": "./fonts/*",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "sideEffects": [
+    "./fonts.css"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "engines": {
+    "node": ">=18"
+  }
+}
